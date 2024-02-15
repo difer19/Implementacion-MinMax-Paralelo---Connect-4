@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+    background-color: white;
+	 border-radius: 25px;
+}
+
+QPushButton
+{
+    color: white;
+    background-color: #1A4A8B;
+    border-radius: 15px;
+    font: 14pt &quot;Bahnschrift&quot;;
+}
+
+QPushButton:disabled
+{
+    color: #1A4A8B;
+    background-color: white;
+    border-radius: 0px;
+}
+
+QLabel
+{
+	color: white;
+    background-color: #1A4A8B;
+    border-radius: 15px;
+    font: 14pt &quot;Bahnschrift&quot;;
+}
+
+QRadioButton{
+	font: 14pt &quot;Bahnschrift&quot;;
+	color: #1A4A8B;
+}
+
+QLineEdit
+{
+	color: #1A4A8B;
+    background-color: white;
+    border : 2px solid #1A4A8B;
+    border-radius: 15px;
+    font: 10pt &quot;Bahnschrift&quot;;
+    border: 1px solid #1A4A8B;
+    padding: 10px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>44</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">padding:10px;</string>
+     </property>
+     <property name="text">
+      <string>About</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">padding: 10px;
+font: 11pt &quot;Bahnschrift&quot;;
+color : black;
+background-color: #f0f0fa;
+border-radius: 25px;
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Desarrollo Realizado en el marco del proyecto de investigacion
+&quot;Implementacion y Verficacion Formal de un algoritmo paralelo 
+basado en Minmax aplicado a un juego como caso de estudio 
+usando algebra de procesos concurrentes mCRL2&quot;, trabajo asociado 
+al grupo de investigacion Galeras.NET, trabajo dirijido por 
+Jesus Insuasti, Ph.D y desarrollado por el estudiante Diego 
+Fernando Escobar Bastidas.
+
+Universidad de Nariño, 2023</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">background-color: white;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">background-color: white;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">padding: 10px;
+font: 11pt &quot;Bahnschrift&quot;;
+color : black;
+background-color: #f0f0fa;
+border-radius: 25px;
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>El juego Connect 4 fue Ned Strongin y Howard Wexler para Milton Bradley Company y 
+ distribuido por Hasbro, Inc.
+
+ Respectivos Creditos a sus creadores.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Resources/udenarLogo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
