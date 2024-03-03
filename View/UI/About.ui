@@ -101,15 +101,14 @@ border-radius: 25px;
 </string>
            </property>
            <property name="text">
-            <string>Desarrollo Realizado en el marco del proyecto de investigacion
-&quot;Implementacion y Verficacion Formal de un algoritmo paralelo 
-basado en Minmax aplicado a un juego como caso de estudio 
-usando algebra de procesos concurrentes mCRL2&quot;, trabajo asociado 
-al grupo de investigacion Galeras.NET, trabajo dirijido por 
-Jesus Insuasti, Ph.D y desarrollado por el estudiante Diego 
+            <string>Development carried out within the framework of the research 
+project.&quot;Implementation and Formal Verification of a parallel 
+algorithm based on Minmax applied to a game as a case study using concurrent 
+process algebra and mCRL2&quot;, associated work to the Galeras.NET research 
+group, work directed by Jesús Insuasti, Ph.D and developed by student Diego
 Fernando Escobar Bastidas.
 
-Universidad de Nariño, 2023</string>
+University of Nariño, 2024</string>
            </property>
           </widget>
          </item>
@@ -152,10 +151,10 @@ border-radius: 25px;
 </string>
            </property>
            <property name="text">
-            <string>El juego Connect 4 fue Ned Strongin y Howard Wexler para Milton Bradley Company y 
- distribuido por Hasbro, Inc.
+            <string>The Connect 4 game was created by Ned Strongin and Howard Wexler for Milton Bradley Company and 
+distributed by Hasbro, Inc. 
 
- Respectivos Creditos a sus creadores.</string>
+ Respective credits to their creators.</string>
            </property>
           </widget>
          </item>

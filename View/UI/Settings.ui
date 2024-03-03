@@ -309,7 +309,7 @@ QLineEdit
     font: 9pt &quot;Bahnschrift&quot;;</string>
      </property>
      <property name="text">
-      <string>Nota : Recuerde que elegir niveles de profundidad muy grandes aumentara el tiempo de respuesta exponencialmente,  el valor recomendado es 5</string>
+      <string>Note : Remember that choosing very large depth levels will increase the response time exponentially, the recommended value is 5</string>
      </property>
     </widget>
    </item>
