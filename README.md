@@ -11,7 +11,7 @@ Connect 4 es un juego clásico donde dos jugadores alternan turnos para colocar 
 - **Minimax Original**
 - **Minimax Paralelo v1**
 - **Minimax Paralelo v2**
-- 
+  
 ## Características
 
 - Juego de Connect 4 completamente funcional.
@@ -30,6 +30,6 @@ Clona este repositorio en tu máquina local
 - **Version en linea de comandos** : Ejecute el archivo Terminal TerminalGame.py
 - **GUI** : Ejecute game_init.py
 
-  Universidad de Nariño
-  Facultad de Ingeniera
+#Universidad de Nariño
+#Facultad de Ingeniera
 
