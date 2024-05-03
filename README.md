@@ -30,6 +30,6 @@ Clona este repositorio en tu máquina local
 - **Version en linea de comandos** : Ejecute el archivo Terminal TerminalGame.py
 - **GUI** : Ejecute game_init.py
 
-#Universidad de Nariño
-#Facultad de Ingeniera
+## Universidad de Nariño
+## Facultad de Ingeniera
 
