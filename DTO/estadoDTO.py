@@ -77,6 +77,11 @@ class stateDTO:
 
         return diagonals
     
+
+    # Nuevas opciones de mejora
+    # valor_estado += self.evaluar_centro()  # Mejora 1: Evaluar el control del centro del tablero
+    # valor_estado += self.evaluar_fichas_cercanas()  # Mejora 2: Evaluar la formación de fichas cercanas
+    # valor_estado += self.evaluar_patrones_estrategicos()  # Mejora 3: Evaluar patrones estratégicos
     def evaluation(self):
         state_value = 0
 
@@ -92,19 +97,16 @@ class stateDTO:
                 valid_row = [vertical[i], vertical[i+1], vertical[i+2], vertical[i+3]]
                 state_value += self.count_groups(valid_row, "X") - 2*self.count_groups(valid_row, "O")
 
-        # Diagonales
+        # Diagonals
         for diagonal in self.get_diagonals():
             state_value += self.count_groups(diagonal, "X") - 2*self.count_groups(diagonal, "O")
 
-        # Nuevas opciones de mejora
-        # valor_estado += self.evaluar_centro()  # Mejora 1: Evaluar el control del centro del tablero
-        # valor_estado += self.evaluar_fichas_cercanas()  # Mejora 2: Evaluar la formación de fichas cercanas
-        # valor_estado += self.evaluar_patrones_estrategicos()  # Mejora 3: Evaluar patrones estratégicos
-
+        # Board Center
         state_value += self.evaluar_centro()
 
+        
         if self.isWin("O"):
-            state_value -= 1000
+            state_value -= 10000
         elif self.isWin("X"):
             state_value += 500 
 
@@ -128,9 +130,9 @@ class stateDTO:
         for col in range(7):
             for row in range(2, 5):
                 if self.position[row][col] == "X":
-                    center_control_X += 1
+                    center_control_X += 100
                 elif self.position[row][col] == "O":
-                    center_control_O += 1
+                    center_control_O += 50 
 
         return (center_control_X - center_control_O)
 

@@ -103,7 +103,7 @@ if __name__ == "__main__":
     while option != 3:
         print("_______Game_________")
         print("1. The maquina start")
-        print("2. El human start")
+        print("2. The human start")
         print("3. Exit")
         print("---------------------")
         option = int(input("Option: "))
