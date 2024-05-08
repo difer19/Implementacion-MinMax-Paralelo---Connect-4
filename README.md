@@ -1,35 +1,36 @@
-# Connect 4 con Algoritmos Minimax
+# Connect 4 with Minimax Algorithms
 
-Este repositorio contiene una implementación en Python del juego Connect 4, utilizando tanto la versión original del algoritmo Minimax como dos versiones paralelas del mismo para optimizar el rendimiento del juego, este repositorio hace parte del proyecto de investigacion presentado como trabajo de grado titulado Implementacion y verificacion formal de un algroitmo paralelo basado en Minmax usando algebra de procesos concurrentes y mCRL2.
+This repository contains a Python implementation of the Connect 4 game, utilizing both the original Minimax algorithm and two parallel versions of it to optimize game performance. This repository is part of a research project presented as a thesis titled Implementation and Formal Verification of a Parallel Algorithm Based on Minmax using Concurrent Process Algebra and mCRL2.
 
-## Descripción
+## Description
 
-Connect 4 es un juego clásico donde dos jugadores alternan turnos para colocar fichas en una cuadrícula vertical de 6 por 7, tratando de ser el primero en alinear cuatro de sus fichas horizontal, vertical, o diagonalmente. Este proyecto implementa el juego usando una interfaz de línea de comandos y permite a los jugadores competir contra un oponente controlado por la computadora que utiliza el algoritmo Minimax para determinar sus movimientos.
+Connect 4 is a classic game where two players take turns placing discs in a 6x7 vertical grid, trying to be the first to line up four of their discs horizontally, vertically, or diagonally. This project implements the game using a command line interface and allows players to compete against a computer-controlled opponent using the Minimax algorithm to determine its moves.
 
-### Algoritmos Implementados
+### Implemented Algorithms
 
-- **Minimax Original**
-- **Minimax Paralelo v1**
-- **Minimax Paralelo v2**
-  
-## Características
+- **Original Minimax**
+- **Parallel Minimax v1**
+- **Parallel Minimax v2**
 
-- Juego de Connect 4 completamente funcional.
-- Interfaz de línea de comandos para fácil interacción.
-- Oponente de IA que utiliza algoritmos Minimax.
+## Features
 
-## Requisitos
+- Fully functional Connect 4 game.
+- Command line interface for easy interaction.
+- AI opponent using Minimax algorithms.
 
-- Python 3.8 o superior
-- Biblioteca PyQT5.
+## Requirements
 
-## Instalación
+- Python 3.8 or higher
+- PyQT5 library.
 
-Clona este repositorio en tu máquina local
+## Installation
 
-- **Version en linea de comandos** : Ejecute el archivo Terminal TerminalGame.py
-- **GUI** : Ejecute game_init.py
+Clone this repository to your local machine:
 
-## Universidad de Nariño
-## Facultad de Ingeniera
+- **Command Line Version**: Run the file TerminalGame.py
+- **GUI**: Run game_init.py
+
+## University of Nariño
+## Faculty of Engineering
+
 
